@@ -67,3 +67,8 @@ bind
 
  Interjun ezzel villoghatunk, w3schools-on olvassunk vagy mdn-en olvashatunk rola. 
 */
+
+window.addEventListener("load", function() {
+    console.log(this)
+}) // ezt probaljuk ki - milyen eventet kapunk - altalanos addEventListenernel az event target-et fogja figyelni
+// loadnal window, clicknel a target objektum
